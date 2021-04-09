@@ -34,11 +34,11 @@ http://{server_ip}:{server_port}/spline/draw/
 http://{server_ip}:{server_port}/spline/interpolate/
 ``` 
 You are able to use thease APIs using Postman or any other tools you usually use for this purpose. API documentations can 
-be reached from [API Documentation](https://documenter.getpostman.com/view/5584679/TzCTaRNj). Furthermore a simple HTML form also prepared for each API. For
+be reached from [API Documentation](https://documenter.getpostman.com/view/5584679/TzCTaRNj). Furthermore, a simple HTML form also prepared for each API. For
 this mean you should open above links in your browser.
 
-As you didnt' provide a input template and test case, an [image](uploads/test.jpg) from the challenges document uploaded in the uploads folder. 
-In other to test APIs, I cut this image from the document and extract your selected points according to the image size. 
+As you didnt' provide an input template and test case, I've uploaded an [image](uploads/test.jpg) from the challenges document in the [uploads](uploads) folder. 
+In order to test APIs, I cut this image from the document and extract your selected points according to the image size. 
 You are free to use this image using following parameters.
 ```requirements.txt
 x: 282,286,335,252,256,259,244
