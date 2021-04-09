@@ -10,6 +10,8 @@ This project contains a simple and tiny backend application and related APIs for
 This project contains a [requirements.txt](requirements.txt) file. Using this file, you are able to install required packages. First of all,
 create a python3 virtual environments then install packages inside the virtual environmnt.
 ```shell script
+git clone https://gitlab.com/ehsanmqn/spline-drawer
+cd spline-drawer
 virtualenv -p python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
