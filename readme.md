@@ -38,7 +38,7 @@ be reached from [API Documentation](https://documenter.getpostman.com/view/55846
 this mean you should open above links in your browser.
 
 As you didnt' provide a input template and test case, an [image](uploads/test.jpg) from the challenges document uploaded in the uploads folder. 
-In other to test APIs, I catted this image from the document and extract your selected points according to the image size. 
+In other to test APIs, I cut this image from the document and extract your selected points according to the image size. 
 You are free to use this image using following parameters.
 ```requirements.txt
 x: 282,286,335,252,256,259,244
