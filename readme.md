@@ -46,4 +46,11 @@ y: 64,127,257,396,492,568,578
 k: 3
 ```
 
-Happy codding!!!
+
+## Result
+Following image is a result of drawing spline using the provided API
+
+![image](uploads/test.jpg)
+
+
+Happy coding!!!
