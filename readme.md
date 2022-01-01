@@ -1,5 +1,5 @@
 # SPLINE-DRAWER-API
-This project contains a simple and tiny backend application and related APIs for the Spline drawer project related to danaXa interview challenges.
+This project contains a simple and tiny Flask API to draw Spline on images.
 
 ## Contents
 1. Install requirements
