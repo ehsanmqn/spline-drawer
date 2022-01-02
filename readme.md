@@ -39,7 +39,7 @@ You are able to use thease APIs using Postman or any other tools you usually use
 be reached from [API Documentation](https://documenter.getpostman.com/view/5584679/TzCTaRNj). Furthermore, a simple HTML form also prepared for each API. For
 this mean you should open above links in your browser.
 
-As you didnt' provide an input template and test case, I've uploaded an [image](uploads/test.jpg) from the challenges document in the [uploads](uploads) folder. 
+As you didnt' provide an input template and test case, I uploaded an [image](uploads/test.jpg) from the challenges document in the [uploads](uploads) folder. 
 In order to test APIs, I cut this image from the document and extract your selected points according to the image size. 
 You are free to use this image using following parameters.
 ```requirements.txt
