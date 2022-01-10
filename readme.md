@@ -1,4 +1,4 @@
-# Spline Drawer API
+# Spline Drawer API with FLASK
 In mathematics, a spline is a special function defined piecewise by polynomials. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding Runge's phenomenon for higher degrees [Wikipedia](https://en.wikipedia.org/wiki/Spline_(mathematics)).
 
 This project contains a simple and tiny Flask API to draw Spline on images.
@@ -39,8 +39,8 @@ You are able to use thease APIs using Postman or any other tools you usually use
 be reached from [API Documentation](https://documenter.getpostman.com/view/5584679/TzCTaRNj). Furthermore, a simple HTML form also prepared for each API. For
 this mean you should open above links in your browser.
 
-As you didnt' provide an input template and test case, I uploaded an [image](uploads/test.jpg) from the challenges document in the [uploads](uploads) folder. 
-In order to test APIs, I cut this image from the document and extract your selected points according to the image size. 
+An [image](uploads/test.jpg) is provided in the [uploads](uploads) folder. 
+In order to test APIs, you are welcome to use this image and define points according to the image size. 
 You are free to use this image using following parameters.
 ```requirements.txt
 x: 282,286,335,252,256,259,244
