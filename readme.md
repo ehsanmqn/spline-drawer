@@ -1,6 +1,8 @@
 # Spline Drawer API with FLASK
 In mathematics, a spline is a special function defined piecewise by polynomials. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding Runge's phenomenon for higher degrees [Wikipedia](https://en.wikipedia.org/wiki/Spline_(mathematics)).
 
+![image](curve.png)
+
 This project contains a simple and tiny Flask API to draw Spline on images.
 
 ## Contents
