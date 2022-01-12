@@ -6,11 +6,13 @@ In mathematics, a spline is a special function defined piecewise by polynomials.
 This project contains a simple and tiny Flask API to draw Spline on images.
 
 ## Contents
-1. Install requirements
-2. How to run project
-3. Use served APIs
+- [Requirements](requirements)
+- [How to run project](#how-to-run-project)
+- [Use served APIs](#how-to-run-project)
+- [Result](#result)
 
-#### Install requirements
+
+### Requirements
 This project contains a [requirements.txt](requirements.txt) file. Using this file, you are able to install required packages. First of all,
 create a python3 virtual environments, then install packages inside the virtual environmnt.
 ```shell script
@@ -21,13 +23,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### How to run project
+### How to run project
 In order to run development server follow instruction bellow:
 ```shell script
 python -m flask run --reload
 ```
 
-#### Use served APIs
+### Use served APIs
 This is a very simple flask project that serves 2 separate APIs for the purpose of drawing B-spline. The first API, draws a B-Spline curve on a given image. For this purpose you should provide points (spline control polygon points) according to image aspect ration. The other API, on the other hand, finds interpolate and draw B-spline curve that go through determined points and or in other words a curve fitting using a cubic B-spline curve.
 
 APIs paths:
@@ -49,7 +51,7 @@ k: 3
 ```
 
 
-## Result
+### Result
 Following image is a result of drawing spline using the provided API
 
 ![image](uploads/test.jpg)
