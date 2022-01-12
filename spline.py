@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
+# 
+# Draw spline curve by given points
+# 
 def draw_spline_by_points(x, y, k, file=None):
 
     # Prepare tck
@@ -32,6 +35,9 @@ def draw_spline_by_points(x, y, k, file=None):
 
     return filename
 
+# 
+# Interpolate points and draw spline curve
+# 
 def interpolate_and_draw_spline_by_points(x, y, k, file=None):
 
     # Prepare tck

@@ -25,7 +25,7 @@ def draw_spline():
     # Get form data
     form = SplineInputFormValidator(request.form)
 
-    # Validate frm data
+    # Validate form data
     if request.method == 'POST' and form.validate():
         if 'image' not in request.files:
             return 'There is no image in form!'
