@@ -10,7 +10,7 @@ This project contains a simple and tiny Flask API to draw Spline on images.
 
 #### Install requirements
 This project contains a [requirements.txt](requirements.txt) file. Using this file, you are able to install required packages. First of all,
-create a python3 virtual environments then install packages inside the virtual environmnt.
+create a python3 virtual environments, then install packages inside the virtual environmnt.
 ```shell script
 git clone https://gitlab.com/ehsanmqn/spline-drawer
 cd spline-drawer
@@ -20,24 +20,22 @@ pip install -r requirements.txt
 ```
 
 #### How to run project
-In order to run development server perform as follow:
+In order to run development server follow instruction bellow:
 ```shell script
 python -m flask run --reload
 ```
 
 #### Use served APIs
-This is a tiny flask project that serves 2 separate APIs for the B-spline drawer. The first API, draw a B-Spline curve on a selected image 
-giving spline control polygon points. The other, finds interpolate and draw B-spline curve that go through determined points
-and or in other words a curve fitting using a cubic B-spline curve.
-Theses APIs are served using folowing paths:
+This is a very simple flask project that serves 2 separate APIs for the purpose of drawing B-spline. The first API, draws a B-Spline curve on a given image. For this purpose you should provide points (spline control polygon points) according to image aspect ration. The other API, on the other hand, finds interpolate and draw B-spline curve that go through determined points and or in other words a curve fitting using a cubic B-spline curve.
+
+APIs paths:
 ```shell script
+# Draw spiline curve using predefined points
 http://{server_ip}:{server_port}/spline/draw/
 
+# Find interpolate and draw spline curve
 http://{server_ip}:{server_port}/spline/interpolate/
 ``` 
-You are able to use thease APIs using Postman or any other tools you usually use for this purpose. API documentations can 
-be reached from [API Documentation](https://documenter.getpostman.com/view/5584679/TzCTaRNj). Furthermore, a simple HTML form also prepared for each API. For
-this mean you should open above links in your browser.
 
 An [image](uploads/test.jpg) is provided in the [uploads](uploads) folder. 
 In order to test APIs, you are welcome to use this image and define points according to the image size. 
